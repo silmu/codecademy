@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+  opacity: 0.5;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  background-image: url('https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2748&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 2rem;
+  margin-right: 2rem;
+}
+
+main {
+  text-align: right;
+  padding: 2rem;
+}
