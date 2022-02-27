@@ -21,6 +21,9 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   padding: 10px;
+  background-color: rgb(0, 0, 0, 0.9);
+  backdrop-filter: blur(3px);
+  z-index: 10;
 }
 
 a {
@@ -58,6 +61,62 @@ nav ul li {
   padding: 0.5em;
 }
 
-.content-banner h2 {
+h2 {
   padding-bottom: 0.5em;
+}
+
+/* Main */
+main article {
+  text-align: center;
+}
+
+main section {
+  display: flex;
+  height: fit-content;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.product {
+  height: 250px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-size: cover;
+  padding: 60px 0;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.locations {
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.location {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  margin: 15px;
+  padding: 10px;
+  line-height: 2.5em;
+}
+
+.contacts {
+  padding: 10px;
+  text-align: center;
 }
